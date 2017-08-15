@@ -1,0 +1,123 @@
+    body {
+    margin: 0px;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: black;
+}
+
+.logo {
+    margin-right: 0px auto;
+    padding-left: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: underline;
+    padding: 20px;
+}
+
+#mission {
+    width: 1200px;
+    height: 700px;
+    background-image: url(img-mission-background.jpg);
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#mission .text {
+    width: 100%;
+    background-color: black
+}
+
+#tea-month {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 150px auto 0px auto;
+}
+
+#tea-month .text {
+    margin: auto;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#tea-month img {
+    height: 200px;
+    width: 300px;
+    margin: 0px 15px;
+}
+
+#tea-month h4 {
+    margin: 20px;
+}
+
+#location {
+    height: 500px;
+    width: 1200px;
+    background-image: url(img-locations-background.jpg);
+    background-size: cover;
+    margin: 40px auto;
+    padding: 40px 0px;
+}
+
+#location h2 {
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#location .text {
+    height: 280px;
+    width: 300px;
+    margin: 0px 20px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    opacity: 1;
+}
+
+#contact {
+    height: 200px;   
+}
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
